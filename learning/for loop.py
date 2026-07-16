@@ -11,11 +11,12 @@ for x in credit_card:
     print(x)
 for x in range(1,21): # to skip a number lets say 13 and 19
     if x == 13 or x == 19:
-        continue
+        continue #continue: it skips to next iteration without putting a stop to it
     else:
         print(x)
 for x in range(1,21): # to stop when reached at 12 i.e only till 1 to 12
     if x == 13:
-        break
+        break # break: breaks out of the loop
     else:
         print(x)
+
