@@ -6,8 +6,18 @@ students = {
 }
 list_1 = []
 count = 0
-count_1 = 0
+sub_1 = 0
+high_name = ""
+high_avg = 0
 for name , info in students.items():
     for subject, marks in info.items():
         count += marks
-    if     
+        sub_1 +=1
+    average = count / sub_1
+    if average > high_avg:
+        high_avg = average
+        high_name = name
+    count = 0
+    sub_1 = 0
+print(f"Highest average: {high_name}")
+print(f"Average: {high_avg:.2f}")
