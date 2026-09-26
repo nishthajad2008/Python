@@ -4,7 +4,6 @@ students = {
     "Charlie": {"math": 95, "python": 88, "physics": 91},
     "David": {"math": 60, "python": 75, "physics": 70}
 }
-list_1 = []
 count = 0
 sub_1 = 0
 high_name = ""
